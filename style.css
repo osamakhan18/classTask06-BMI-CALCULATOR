@@ -1,6 +1,7 @@
 *{
     padding: 0px ;
     margin: 0px;
+    background-color:rgb(14, 211, 162);
 }
 
 #head-h1{
@@ -22,6 +23,7 @@
     background-color: rgb(8, 88, 88);
     border-radius: 20px;
     
+    
 }
 
 
@@ -29,16 +31,28 @@
     padding: 1rem 2rem;
     border-radius: 10px;
     margin-top: 10px;
+    background-color: rgb(8, 88, 88);
+    font-size: larger;
+    color: antiquewhite;
+    outline: none;
 }
 
 #height{
     padding: 1rem 2rem;
     border-radius: 10px;
+    background-color: rgb(8, 88, 88);
+    font-size: larger;
+    color: antiquewhite;
+    outline: none;
+    
 }
 
 #btn{
 padding: 0.8rem 1.5rem;
 border-radius: 10px;
+background-color: rgb(8, 88, 88);
+font-size: larger;
+color: aliceblue;
 }
 
 #result{
