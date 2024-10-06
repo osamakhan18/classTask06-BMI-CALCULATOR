@@ -4,22 +4,24 @@ var btn = document.getElementById('btn');
 
 btn.addEventListener('click',function(){
     var weight = document.getElementById('weight').value;
-var height = documment.getElementById('number').value;
-    var bmi = weight/height;
+       var height = document.getElementById('height').value;
+    var bmi = weight/(height *2);
     
     var category;
     if(bmi<18.5){
         category = 'underweight'
     }
-    if(18.5>=bmi <=24.5){
+  else   if(18.5>=bmi <=24.5){
         catagory = 'normal'
     }
-    if(25 <=bmi < 29.9){
+    else if(25 <=bmi < 29.9){
         category = 'overweight'
     }
     else(bmi>= 30)
-       category = 'obsity'
+       category = 'obesity'
 
-       document.getElementById('result').innerText= `your bmi is ${category}`;
+    //    document.getElementById('result').innerText= `your bmi is ${category}`;
+    alert(`${category}`)
+    
     
 });
