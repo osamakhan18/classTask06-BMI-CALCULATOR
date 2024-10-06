@@ -6,17 +6,20 @@ btn.addEventListener('click',function(){
     var weight = document.getElementById('weight').value;
 var height = documment.getElementById('number').value;
     var bmi = weight/height;
-
+    
+    var category;
     if(bmi<18.5){
-        alert('Underweight')
+        category = 'underweight'
     }
     if(18.5>=bmi <=24.5){
-        alert('Normal')
+        catagory = 'normal'
     }
     if(25 <=bmi < 29.9){
-        alert('overWeight')
+        category = 'overweight'
     }
     else(bmi>= 30)
-        alert('obesity')
+       category = 'obsity'
+
+       document.getElementById('result').innerText= `your bmi is ${category}`;
     
 });

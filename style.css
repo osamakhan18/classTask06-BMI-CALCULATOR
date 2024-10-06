@@ -8,28 +8,43 @@
     margin: 0 auto;
     justify-content: center;
     align-items: center;
+    margin-bottom: 40px;
 }
 .main{
     width: 50%;
-    height: 200px;
-    border: 2px solid red;
+    height: auto;
+    /* border: 2px solid red; */
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    gap: 15px;
+    background-color: rgb(8, 88, 88);
+    border-radius: 20px;
+    
 }
 
 
 #weight{
     padding: 1rem 2rem;
+    border-radius: 10px;
+    margin-top: 10px;
 }
 
 #height{
     padding: 1rem 2rem;
+    border-radius: 10px;
 }
 
 #btn{
 padding: 0.8rem 1.5rem;
+border-radius: 10px;
 }
 
+#result{
+    border: 2px solid black;
+    padding: 0.5rem 2rem;
+    border-radius: 10px;
+    display: none;
+}
